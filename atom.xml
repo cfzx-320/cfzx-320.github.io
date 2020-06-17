@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cfzx-320.github.io</id>
     <title>老于头的小站</title>
-    <updated>2020-06-17T04:02:48.777Z</updated>
+    <updated>2020-06-17T04:04:53.587Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cfzx-320.github.io"/>
     <link rel="self" href="https://cfzx-320.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://cfzx-320.github.io/images/avatar.png</logo>
     <icon>https://cfzx-320.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老于头的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[Photo😎（持续更新中……）]]></title>
+        <id>https://cfzx-320.github.io/post/photochi-xu-geng-xin-zhong/</id>
+        <link href="https://cfzx-320.github.io/post/photochi-xu-geng-xin-zhong/">
+        </link>
+        <updated>2020-06-17T04:03:58.000Z</updated>
+        <content type="html"><![CDATA[<img src="https://s1.ax1x.com/2020/06/17/NEptHK.jpg" alt="1592230378222" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpUAO.jpg" alt="1592230380700" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpYB6.jpg" alt="1592230383494" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpJnx.jpg" alt="1592230385624" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEp8j1.jpg" alt="1592230419545" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEp09H.jpg" alt="1592230422411" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpaND.jpg" alt="1592230425233" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpd4e.jpg" alt="1592230520938" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpB3d.jpg" alt="1592230550033" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NEpDgA.jpg" alt="1592230552642" border="0">]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[About You（持续更新中……）]]></title>
         <id>https://cfzx-320.github.io/post/about-you/</id>
