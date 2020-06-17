@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html id="bg">
 
 <head>
     <meta charset="utf-8" />
+<!--
+    * @Theme Card
+    *
+    * @author admin@itjoker.cn
+    * @link https://blog.itjoker.cn
+-->
+
 <title>
     老于头的小站
 </title>
@@ -10,193 +17,209 @@
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
-<meta name="author" content="cfzx小凡">
-<meta name="description" content="">
+<meta name="author" content="老于头的小站">
+<meta name="description" content="生活、工作、心情的各种记录
+PS：感谢路过图床的支持">
 <meta name="keywords" content="">
-<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/jquery@3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/Card/prism.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/prism.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/contrib/auto-render.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/js/Card/script.min.js"></script>
+<!--<script async src="https://cfzx-320.github.io/media/js/script.min.js"></script>-->
+<!--<link rel="stylesheet" href="https://cfzx-320.github.io/media/css/main.min.css" />-->
 <link rel="stylesheet" href="https://cfzx-320.github.io/styles/main.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/main.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/css/Card/iconfont.css" />
+<!--link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_410989_wuhl0k5ojvf.css" /-->
 <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/js/Card/prism.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.12/CDN/css/Card/prism.min.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@1.0.25/CDN/js/love.min.js"></script>
 
-    <!--点击特效-->
-    <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+    <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
     
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
         
-            <!--CDN样式-->
-            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
-            <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+            <script>
+                (function() {
+                    var bp = document.createElement('script');
+                    var curProtocol = window.location.protocol.split(':')[0];
+                    if (curProtocol === 'https') {
+                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                    } else {
+                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    }
+                    var s = document.getElementsByTagName("script")[0];
+                    s.parentNode.insertBefore(bp, s);
+                })();
+            </script>
             
-                <script>
-                    (function() {
-                        var bp = document.createElement('script');
-                        var curProtocol = window.location.protocol.split(':')[0];
-                        if (curProtocol === 'https') {
-                            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-                        } else {
-                            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                    <style>
+                        .Card-certify {
+                            color: #0091e4 !important;
                         }
-                        var s = document.getElementsByTagName("script")[0];
-                        s.parentNode.insertBefore(bp, s);
-                    })();
-                </script>
-                
+                        
+                        #foot {
+                            color: #000;
+                        }
+                        
+                        #menu-item:hover {
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+                            border-bottom-color: rgba(0, 0, 0, .6);
+                        }
+                        
+                        .lite-item,
+                        #header {
+                            opacity: 1;
+                        }
+                        
+                        #span_btn:hover {
+                            transition: all .3s ease;
+                            color: #fff;
+                            background: #0092ee;
+                            /*linear-gradient( rgb(138, 160, 255) 30%, rgb(90, 140, 250) 70%);*/
+                        }
+                        
+                        #span_btn {
+                            font-size: 14px;
+                        }
+                        
+                        .link_a:hover {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            color: #fff;
+                            border-left: 8px solid #0092eeee;
+                            padding: 5px;
+                            transition: all .3s ease;
+                        }
+                        
+                        html {
+                            width: 100%;
+                            height: 100%;
+                            background-attachment: fixed;
+                            background-repeat: no-repeat;
+                        }
+                    </style>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-header header-logo">
-                <a href="https://cfzx-320.github.io">
-                    老于头的小站
-                </a>
-            </div>
-
-            <div class="menu navbar-right">
+    <header id="header">
+    <div id="pc-menu">
+        <a id="menu-bar" class="Card Card-menu"></a>
+        <a id="menu-title" href="https://cfzx-320.github.io">
+            老于头的小站
+        </a>
+        <nav id="menu-main" class="menu-main">
+            <ul>
                 
-                    <a class="menu-item" href="/">
-                        首页
-                    </a>
-                    
-                    <a class="menu-item" href="/archives">
-                        归档
-                    </a>
-                    
-                    <a class="menu-item" href="/tags">
-                        标签
-                    </a>
-                    
-                    <a class="menu-item" href="/post/about">
-                        关于
-                    </a>
-                    
-                        <input id="switch_default" type="checkbox" class="switch_default">
-                        <label for="switch_default" class="toggleBtn"></label>
-            </div>
-            <form id="gridea-search-form" data-update="1592364919925" action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-            </form>
-        </div>
-    </nav>
-
-    
-        <nav class="navbar-mobile" id="nav-mobile">
-            <div class="container">
-                <div class="navbar-header">
-                    <div>
-                        <a href="https://cfzx-320.github.io">
-                            老于头的小站
-                        </a>
-                        <!--en-->
-                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
-                        <!--zh-->
-                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
-                    </div>
-                    <form id="gridea-search-form" data-update="1592364919925" action="/search/index.html">
-                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
-                    </form>
-                    <!--en-->
-                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
-                    <!--zh-->
-                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
-
-                </div>
-                <div class="menu" id="mobile-menu">
-                    
-                        <a class="menu-item" href="/">
+                    <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7">
+                        <a href="/">
                             首页
                         </a>
-                        
-                        <a class="menu-item" href="/archives">
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7">
+                        <a href="/archives">
                             归档
                         </a>
-                        
-                        <a class="menu-item" href="/tags">
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7">
+                        <a href="/tags">
                             标签
                         </a>
-                        
-                        <a class="menu-item" href="/post/about">
+                    </li>
+                    
+                    <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7">
+                        <a href="/post/about">
                             关于
                         </a>
-                        
-                </div>
-            </div>
+                    </li>
+                    
+            </ul>
         </nav>
+        <form id="gridea-search-form" class="searchform" data-update="1592365824760" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+    </div>
+    <div id="mobile-menu">
+        <form id="gridea-search-form" class="mobile-searchform" data-update="1592365824760" action="/search/index.html">
+            <i class="Card Card-search"></i>
+            <input id="s" class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+        </form>
+        <nav class="menu">
+            <ul style="list-style: none;">
+                
+                    <li class="page_item page-item-2">
+                        <a href="/">
+                            首页
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/archives">
+                            归档
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/tags">
+                            标签
+                        </a>
+                    </li>
+                    
+                    <li class="page_item page-item-2">
+                        <a href="/post/about">
+                            关于
+                        </a>
+                    </li>
+                    
+            </ul>
+        </nav>
+    </div>
 </header>
-<script>
-    var mobileBtn = function f() {
-        var toggleMenu = document.getElementById("menu-toggle-en");
-        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
-
-        var mobileMenu = document.getElementById("mobile-menu");
-        if (toggleMenu.display != "none") {
-            if (toggleMenu.classList.contains("active")) {
-                toggleMenu.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        } else if (toggleMenu_zh.display != "none") {
-            if (toggleMenu_zh.classList.contains("active")) {
-                toggleMenu_zh.classList.remove("active")
-                mobileMenu.classList.remove("active")
-            } else {
-                toggleMenu_zh.classList.add("active")
-                mobileMenu.classList.add("active")
-            }
-        }
-
-    }
-</script>
-            <div class="main">
-                <div class="container">
-                    <article class="post-wrap">
-                        <header class="post-header">
-                            <h1 class="post-title">
-                                Hello Gridea
-                            </h1>
+        <div id="main">
+            <div id="main-part">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
                             
-                                    <!--zh-->
-                                    <div class="post-meta zh">
-                                        &#x4F5C;&#x8005;:
-                                        <a itemprop="author" rel="author" href="/">
-                                            老于头的小站
-                                        </a>
-                                        <span class="post-time">&#x65E5;&#x671F;: <a href="#">2018-12-12</a></span>
-                                        <span class="post-readtime">&#x9605;&#x8BFB;&#x65F6;&#x95F4;:<a
-                                    href="#">0.9
-                                    &#x5206;&#x949F;</a></span>
-                                        <span class="post-words">&#x5B57;&#x6570;:<a href="#">254</a></span>
+                                <div class="thumbnail-link" style="background-image: url('https://cfzx-320.github.io/post-images/hello-gridea.png')"></div>
+                                
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                Hello Gridea
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
                                         
-                                            <span class="post-category">&#x5206;&#x7C7B;:
-                                
-                                <a href="https://cfzx-320.github.io/tag/-gsCo6bpR/">Gridea</a>
-                                
-                            </span>
+                                            <a href="https://cfzx-320.github.io/tag/-gsCo6bpR/" rel="category">Gridea</a>
                                             
-                                                阅读量:
-                                                <span data-hk-page="current"> - </span>
+                                    </span>&nbsp;•&nbsp;
+                                                <span class="post-view">
+                                        
+                                            <i class="Card Card-view"></i>&nbsp;
+                                            <span data-hk-page="current"> - </span>
                                                 
-                                    </div>
-                                    
+                                                    </span>&nbsp;•&nbsp;
+
+                                                    <span class="post-readtime">阅读时间:
+                                            <a href="#">0.9分</a></span>
+                                                    <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="老于头的小站" src="https://cfzx-320.github.io/images/avatar.png?v=1592365824760" srcset="https://cfzx-320.github.io/images/avatar.png?v=1592365824760" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://cfzx-320.github.io" title="由老于头的小站发布" rel="author">老于头的小站<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2018-12-12</span>
+                                        </div>
                         </header>
-                        
-                            <img class="post-feature-image" src="https://cfzx-320.github.io/post-images/hello-gridea.png" alt="">
-                          
-                        <div class="post-content">
-                            <p>👏  欢迎来到 <strong>老于头的小站</strong> ！<br>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p>👏  欢迎来到 <strong>老于头的小站</strong> ！<br>
 ✍️  <strong>老于头的小站</strong> 一个静态网站。可以用来记录生活、心情、知识、笔记、创意... ...</p>
 <!-- more -->
 <h2 id="参数">参数👇</h2>
@@ -215,244 +238,198 @@
 <p>🌁  可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
 <p>🖥  可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
 
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                老于头的小站<br>永久链接:
+                                    <a href="https://cfzx-320.github.io/post/hello-gridea/" title="Hello Gridea">
+                                        https://cfzx-320.github.io/post/hello-gridea/
+                                    </a><br> 协议: MIT License
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                        <div class="nearby-article-left" style="padding: 10px;">
+                            <a class="prev" rel="prev" href="https://cfzx-320.github.io/post/about/">
+                                <i class="fa fa-chevron-left"></i>
+                                关于
+                            </a>
                         </div>
                         
-                            <div class="post-toc">
-                                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E5%8F%82%E6%95%B0">参数👇</a></li>
-<li><a href="#%E7%89%B9%E6%80%A7">特性👇</a></li>
-</ul>
-</li>
-</ul>
-
-                            </div>
+                            
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cfzx-320.github.io/post/hello-gridea/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://cfzx-320.github.io/post/hello-gridea/&sharesource=qzone&title=Hello Gridea&pics=https://cfzx-320.github.io/images/avatar.png?v=1592365824760&summary=&lt;p&gt;👏  欢迎来到 &lt;strong&gt;老于头的小站&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;老于头的小站&lt;/strong&gt; 一个静态网站。可以用来记录生活、心情、知识、笔记、创意... ...&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://cfzx-320.github.io/post/hello-gridea/&sharesource=weibo&title=Hello Gridea + " - " + &lt;p&gt;👏  欢迎来到 &lt;strong&gt;老于头的小站&lt;/strong&gt; ！&lt;br&gt;
+✍️  &lt;strong&gt;老于头的小站&lt;/strong&gt; 一个静态网站。可以用来记录生活、心情、知识、笔记、创意... ...&lt;/p&gt;
+&pic="https://cfzx-320.github.io/images/avatar.png?v=1592365824760"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                                            
+            </div>
+            <div id="sidebar">
+    <ul>
+        
+            <li class="lite-item">
+                <header class="lite-item-header">
+                    <h3 class="sidebar-default-icon lite-item-title"><i class="Card Card-hitokoto"></i>&nbsp;&#x4E00;&#x8A00;</h3>
+                </header>
+                <div class="textwidget">
+                    <p>
+                        <b id="hitokoto"></b>
+                    </p>
+                </div>
+            </li>
+            
+                <li class="lite-item">
+                    <header class="lite-item-header">
+                        <h3 class="sidebar-default-icon lite-item-title"><i class="Card Card-tags">&#x6807;&#x7B7E;</i></h3>
+                    </header>
+                    <div class="textwidget">
+                        
+                            <a href="https://cfzx-320.github.io/tag/-gsCo6bpR/" class="tag-cloud-link " style="font-size: 12px;margin: 5px; padding: 2px;">
+                                <i class="fa fa-tags" aria-hidden="true">Gridea</i>
+                            </a>
+                            
+                    </div>
+                </li>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    <div id="player"></div>
+                    
+                            <script>
+                                function LoadPlayer() {
+                                    var music_array = [];
+                                    
+                                    music_array.push({
+                                        name: 'I&#39;m Yours',
+                                        url: 'https://sz.btfs.mail.ftn.qq.com/ftn_handler/e326d41bbc0a7be56f10a6cc2ed5bdc63d1bea9699e9976628101975d4c6efd2bade6103783fc23abed676b5a1112b9630eca97e31898030831e1a91744db1ca?compressed=0&amp;dtype=1&amp;fname=Jason%20Mraz%20-%20I%27m%20Yours.mp3',
+                                        artist: 'JASON MRAZ',
+                                        cover: 'https://s1.ax1x.com/2020/06/17/NAO9zV.jpg',
+                                    });
+                                    
+                                    
+                                    const ap = new APlayer({
+                                        container: document.getElementById('player'),
+                                        fixed: true,
+                                        audio: music_array
+                                    });
+                                    
+                                }
+                                LoadPlayer();
+                            </script>
                             
                                 
                                     
-                                            <!--zh-->
-                                            <section class="post-copyright zh">
-                                                <p class="copyright-item ">
-                                                    <span>&#x4F5C;&#x8005;:</span>
-                                                    <span>老于头的小站</span>
-                                                </p>
-
-                                                <p class="copyright-item">
-                                                    <span>&#x6C38;&#x4E45;&#x94FE;&#x63A5;:</span>
-                                                    <span><a href="https://cfzx-320.github.io/post/hello-gridea/">https://cfzx-320.github.io/post/hello-gridea/</a></span>
-                                                </p>
-
-                                                <p class="copyright-item">
-                                                    <span>&#x534F;&#x8BAE;:</span>
-                                                    <span>MIT License</span>
-                                                </p>
-                                            </section>
+                                        
+                                            <li class="lite-item">
+                                                <header class="lite-item-header">
+                                                    <h3 class="sidebar-default-icon lite-item-title">
+                                                        
+                                                    </h3>
+                                                </header>
+                                                <div class="textwidget">
+                                                    <div id="textwidget-box" style="width:100%; height:auto;">
+                                                        
+                                                    </div>
+                                                </div>
+                                            </li>
                                             
                                                 
-                                                    
-                                                                    <!--Share-->
-                                                                    <span style="margin-right:15px">
-                        <i class="post-share"></i>
-                        <span>&#x5206;&#x4EAB;:</span>
-                                                                    <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cfzx-320.github.io/post/hello-gridea/"><i class="fa fa-qrcode"></i></a>
-                                                                    <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://cfzx-320.github.io/post/hello-gridea/&sharesource=qzone&title=Hello Gridea&pics=https://cfzx-320.github.io/images/avatar.png?v=1592364919925&summary=&lt;p&gt;👏  欢迎来到 &lt;strong&gt;老于头的小站&lt;/strong&gt; ！&lt;br&gt;
-✍️  &lt;strong&gt;老于头的小站&lt;/strong&gt; 一个静态网站。可以用来记录生活、心情、知识、笔记、创意... ...&lt;/p&gt;
-"><i class="fa fa-qq"></i></a>
-                                                                    <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://cfzx-320.github.io/post/hello-gridea/&sharesource=weibo&title=Hello Gridea + " - " + &lt;p&gt;👏  欢迎来到 &lt;strong&gt;老于头的小站&lt;/strong&gt; ！&lt;br&gt;
-✍️  &lt;strong&gt;老于头的小站&lt;/strong&gt; 一个静态网站。可以用来记录生活、心情、知识、笔记、创意... ...&lt;/p&gt;
-&pic="https://cfzx-320.github.io/images/avatar.png?v=1592364919925 "><i class="fa fa-weibo "></i></a>
+                                                    <li class="lite-item">
+                                                        <header class="lite-item-header">
+                                                            <h3 class="sidebar-default-icon lite-item-title">&#x1F468;&#x200D;&#x1F4BB;&#x53CB;&#x94FE;</h3>
+                                                        </header>
+                                                        <div class="textwidget">
+                                                            
+                                                                
+                                                                    <p onclick="javascript:top.location='https://blog.itjoker.cn'"><span class="link_a"><a href="https://blog.itjoker.cn" alt="ITJoker ">ITJoker -ITJoker&#39;s Blog</a></span></p>
 
-                                                                    </span>
                                                                     
-                                                                        <div class="reward ">
-                                                                            <div class="reward-button ">&yen;
-                                                                                <span class="reward-code "> 
-                        <span class="alipay-code "> <img class="alipay-img " alt = "support " src=""><b>支付宝</b> </span>
-                                                                                <span class="wechat-code "> <img alt ="support " class="wechat-img " src=""><b>微信</b> </span> </span>
-                                                                            </div>
-                                                                        </div>
                                                                         
-                                                                            <!--zh-->
-                                                                            <section class="post-tags zh ">
-                                                                                <div>
-                                                                                    <span>&#x6807;&#x7B7E;:</span>
-                                                                                    <span class="tag ">
-                        
-                        
-                        <a href="https://cfzx-320.github.io/tag/-gsCo6bpR/">#
-                    Gridea
-                        </a>
-                        
-                            
-                                </span>
-                                                                                </div>
-                                                                                <div>
-                                                                                    <a href="javascript:window.history.back();">
-                        &#x8FD4;&#x56DE;</a>
-                                                                                    <span>&dot;</span>
-                                                                                    <a href="#">&#x4E3B;&#x9875;</a>
-                                                                                </div>
-                                                                            </section>
-
-                                                                            
-                                                                                <!---->
-                                                                                <section class="post-nav">
-                                                                                    
-                                                                                        <a class="prev" rel="prev" href="https://cfzx-320.github.io/post/about/">
-                                                                                            关于
-                                                                                        </a>
-                                                                                        
-                                                                                            
-                                                                                </section>
-                    </article>
-                </div>
-                
-                                            
-            </div>
-    </div>
-    </div>
-    </div>
-    
-    <div id="player"></div>
-    
-        <footer id="footer" class="footer">
-            <div class="copyright">
-                
-                    <div class="Like">
-                        <div class="tip" data-tooltip="Do you like it?">
-                            <a href="https://github.com/ITJoker233/Gridea-theme-Chic" target="_blank" title=""><svg class="icon"
-                        aria-hidden="true">
-                        <use xlink:href="#like"></use>
-                    </svg><b class="like_text" id="star"></b></a>
-                        </div>
-                    </div>
-                    
-                        Powered by 超凡工作室™
-                            
-                                <b id="hitokoto"></b><br>
-                                
-                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
-            <path
-                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
-                fill="#93b5cf"></path>
-        </svg>
-                                        老于头的小站 &copy;Copyright
-                                            <script>
-                                                var date = new Date();
-                                                document.write("" + date.getFullYear());
-                                            </script>
-                                            | Powered by
-                                            <a href="https://cfzx-320.github.io/" target="_blank">
-                                                超凡工作室
-                                            </a>
-            </div>
-            <div id="update" style="display:none;">
-                on
-            </div>
-            
-                <div id="version" style="display:none;">
-                    1.7.4
-                </div>
-                
-                    <script>
-                        var pat = '';
-                        
-                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + pat + '</div>')
-                    </script>
-        </footer>
-        
-            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
-            
-                <script>
-                    
-
-                    function LoadPlayer() {
-                        var music_array = [];
-                        
-                        music_array.push({
-                            name: 'I&#39;m Yours',
-                            url: 'https://sz.btfs.mail.ftn.qq.com/ftn_handler/30efcbd319aea687a319c400da6161965c6738ec60fcbedb0e86b5a21110ea6d2335ecabc90e28eafe6e650d57c6feca768698d7c8ce618426c260f266bbe9ad?compressed=0&amp;dtype=1&amp;fname=Jason%20Mraz%20-%20I%27m%20Yours.mp3',
-                            artist: 'Jason Mraz ',
-                            cover: 'https://s1.ax1x.com/2020/06/17/NAO9zV.jpg',
-                        });
-                        
-                        console.log(" MusicList: " + music_array);
-                        
-                        const ap = new APlayer({
-                            container: document.getElementById('player'),
-                            fixed: true,
-                            audio: music_array
-                        });
-                        
-                    }
-                    LoadPlayer();
-                    
-                    
-                    loadlive2d();
-                    
-                    
-                    hitokoto();
-                    
-                    getStar();
-                    hljs.initHighlighting();
-                    console.clear();
-                    
-                    CheckVersion();
-                    
-                    var newDate = new Date();
-                    newDate.setTime(1592364919925);
-                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
-                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
-                </script>
-                
-                    <div id="tp-weather-widget" style="background: #666;display: flex;"></div>
-                    <script>
-                        (function(T, h, i, n, k, P, a, g, e) {
-                            g = function() {
-                                P = h.createElement(i);
-                                a = h.getElementsByTagName(i)[0];
-                                P.src = k;
-                                P.charset = "utf-8";
-                                P.async = 1;
-                                a.parentNode.insertBefore(P, a)
-                            };
-                            T["ThinkPageWeatherWidgetObject"] = n;
-                            T[n] || (T[n] = function() {
-                                (T[n].q = T[n].q || []).push(arguments)
-                            });
-                            T[n].l = +new Date();
-                            if (T.attachEvent) {
-                                T.attachEvent("onload", g)
-                            } else {
-                                T.addEventListener("load", g, false)
-                            }
-                        }(window, document, "script", "tpwidget", "//widget.seniverse.com/widget/chameleon.js"))
-                    </script>
-                    <script>
-                        var wearther_margin = "10px 10px";
-                        
-                        wearther_margin = "70px 5px";
-                        
-                        tpwidget("init", {
-                            "flavor": "bubble",
-                            "location": "WX4FBXXFKE4F",
-                            "geolocation": "enabled",
-                            "position": "bottom-left",
-                            "margin": wearther_margin,
-                            "language": "zh-chs",
-                            "unit": "c",
-                            "theme": "chameleon",
-                            "uid": "UFC977E1C7",
-                            "hash": "213ad798bc472dc365da3a9d4a9ff115"
-                        });
-                        tpwidget("show");
-                    </script>
-                    
+                                                        </div>
+                                                    </li>
+    </ul>
+</div>
         </div>
+
 </body>
-<script>
-    scroll();
-</script>
+<footer id="foot">
+    <a id="back-to-top" href="#"><i class="Card Card-top"></i></a>
+    <div class="copyright">
+        Powered by 超凡工作室™
+            
+                    
+                            &#x7248;&#x6743;&#x6240;&#x6709; &copy;
+                            <span class="my-face"><script>
+                        var date = new Date();
+                        document.write("" + date.getFullYear());
+                    </script>
+                   </span>
+                            <a href="https://cfzx-320.github.io">
+                                老于头的小站
+                            </a>&nbsp;|&nbsp;Powered by
+                            <a href="https://coding.net" target="_blank">
+                                Coding.net
+                            </a>
+    </div>
+    <div id='UpdateTime' style='display:none'>
+        1592365824760
+    </div>
+    <script>
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            document.hidden ? (document.title = "\uD83D\uDE25" + OriginTitile, clearTimeout(titleTime)) : (document.title = "\uD83D\uDE1D" + OriginTitile, titleTime = setTimeout(function() {
+                document.title = OriginTitile
+            }, 2E3))
+        });
+        var OriginTitile = document.title;
+        
+        App.hitokoto();
+        
+        App.outputlog();
+    </script>
+</footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
 
 </html>
