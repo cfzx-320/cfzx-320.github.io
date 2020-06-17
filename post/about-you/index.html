@@ -182,89 +182,169 @@
 </header>
         <div id="main">
             <div id="main-part">
-                <ul class="posts-list">
-                    <li class="lite-item">
-                        <article class="post post-type">
-                            <div class="post-main post-type-main">
-                                <div class="post-content">
-                                    <div class="post-content-real">
+                <div class="lite-item">
+                    <article class="post post-type real-post">
+                        <header class="post-type-header">
+                            
+                                    <div class="thumbnail-link" style="background-color: transparent;"></div>
+                                    
+                                        <div class="thumbnail-shadow">
+                                            <h1 class="post-title">
+                                                About You（持续更新中……）
+                                            </h1>
+                                            <div class="post-info">
+                                                <span class="post-category"><i class="Card Card-novel"></i>
                                         
-                                            
-                                                <h3>
-                                                    2020
-                                                </h3>
+                                    </span>&nbsp;•&nbsp;
+                                                <span class="post-view">
+                                        
+                                            <i class="Card Card-view"></i>&nbsp;
+                                            <span data-hk-page="current"> - </span>
                                                 
-                                                    
-                                                        <article class="archive-item">
-                                                            <a class="archive-item-link" href="https://cfzx-320.github.io/post/about-you/">
-                                                                About You（持续更新中……）
-                                                            </a>
-                                                            <span class="publish-time"> - <i class="fa fa-calendar"aria-hidden="true"></i> 2020-06-17</span></article>
-                                                        
-                                                            
-                                                    
-                                                        <article class="archive-item">
-                                                            <a class="archive-item-link" href="https://cfzx-320.github.io/post/zuo-pin-ji-chi-xu-geng-xin-zhong/">
-                                                                作品集（持续更新中……）
-                                                            </a>
-                                                            <span class="publish-time"> - <i class="fa fa-calendar"aria-hidden="true"></i> 2020-06-17</span></article>
-                                                        
-                                                            
-                                                    
-                                                            
-                                                    
-                                                            
-                                                                
-                                                <h3>
-                                                    2019
-                                                </h3>
-                                                
-                                                    
-                                                            
-                                                    
-                                                            
-                                                    
-                                                        <article class="archive-item">
-                                                            <a class="archive-item-link" href="https://cfzx-320.github.io/post/about/">
-                                                                关于
-                                                            </a>
-                                                            <span class="publish-time"> - <i class="fa fa-calendar"aria-hidden="true"></i> 2019-01-25</span></article>
-                                                        
-                                                            
-                                                    
-                                                            
-                                                                
-                                                <h3>
-                                                    2018
-                                                </h3>
-                                                
-                                                    
-                                                            
-                                                    
-                                                            
-                                                    
-                                                            
-                                                    
-                                                        <article class="archive-item">
-                                                            <a class="archive-item-link" href="https://cfzx-320.github.io/post/hello-gridea/">
-                                                                Hello Gridea
-                                                            </a>
-                                                            <span class="publish-time"> - <i class="fa fa-calendar"aria-hidden="true"></i> 2018-12-12</span></article>
-                                                        
-                                                            
-                                                                
-                                    </div>
+                                                    </span>&nbsp;•&nbsp;
+
+                                                    <span class="post-readtime">阅读时间:
+                                            <a href="#">1.0分</a></span>
+                                                    <span class="post-edit"></span></div>
+                                        </div>
+                                        <div class="post-relative">
+                                            <img alt="老于头的小站" src="https://cfzx-320.github.io/images/avatar.png?v=1592366542659" srcset="https://cfzx-320.github.io/images/avatar.png?v=1592366542659" class="avatar avatar-100 photo" width="100" height="100">
+                                            <span class="post-type-author"><a href="https://cfzx-320.github.io" title="由老于头的小站发布" rel="author">老于头的小站<i class="Card Card-certify"></i></a></span>
+                                            <span class="post-publish"><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;2020-06-17</span>
+                                        </div>
+                        </header>
+                        <div class="post-main post-type-main">
+                            <div class="post-content">
+                                <div class="post-content-real">
+                                    <p>嘻嘻，快看呐！这里写着什么？</p>
+<!-- more -->
+<p>2020年6月14日9:01AM，与柯鑫同学相识😎</p>
+<!-- more -->
+<div id="messages">
+<div id="elapseClock">
+到现在为止，我们已经相识了…
+<p id="demo"></p>
+<!-- <div id="elapseClock">
+到现在为止，我们已经相恋了…
+<p id="demo1"></p> -->
+</div>
+</div>
+<script type="text/javascript">          
+function timeset(){
+    var date1= '2020/06/17 00:09:01';  //开始时间  
+	var date2 = new Date();    //结束时间  
+	var date3 = date2.getTime() - new Date(date1).getTime();   //时间差的毫秒数      //计算出相差天数  
+	var days=Math.floor(date3/(24*3600*1000))  
+	//计算出小时数  
+		    var leave1=date3%(24*3600*1000)    //计算天数后剩余的毫秒数  
+		    var hours=Math.floor(leave1/(3600*1000))  
+		    //计算相差分钟数  
+		    var leave2=leave1%(3600*1000)        //计算小时数后剩余的毫秒数  
+		    var minutes=Math.floor(leave2/(60*1000))  
+		    //计算相差秒数  
+		    var leave3=leave2%(60*1000)      //计算分钟数后剩余的毫秒数  
+		    var seconds=Math.round(leave3/1000)  
+			var result = days+"天 "+hours+"小时 "+minutes+" 分钟"+seconds+" 秒";
+			// alert(result.toString()) ;
+			document.getElementById('demo').innerHTML = result;
+			}
+			setInterval("timeset()","1000");
+		</script>  
+        <!-- <script type="text/javascript">          
+function timeset1(){
+    var date11= '2020/02/7 16:40:00';  //开始时间  
+	var date21 = new Date();    //结束时间  
+	var date31 = date21.getTime() - new Date(date11).getTime();   //时间差的毫秒数      //计算出相差天数  
+	var days=Math.floor(date31/(24*3600*1000))  
+	//计算出小时数  
+		    var leave1=date31%(24*3600*1000)    //计算天数后剩余的毫秒数  
+		    var hours=Math.floor(leave1/(3600*1000))  
+		    //计算相差分钟数  
+		    var leave2=leave1%(3600*1000)        //计算小时数后剩余的毫秒数  
+		    var minutes=Math.floor(leave2/(60*1000))  
+		    //计算相差秒数  
+		    var leave3=leave2%(60*1000)      //计算分钟数后剩余的毫秒数  
+		    var seconds=Math.round(leave3/1000)  
+			var result = days+"天 "+hours+"小时 "+minutes+" 分钟"+seconds+" 秒";
+			// alert(result.toString()) ;
+			document.getElementById('demo1').innerHTML = result;
+			}
+			setInterval("timeset1()","1000");
+		</script>   -->
+        记录柯鑫的喜好与厌恶
+        <table border="1">
+    <tr>
+        <th>喜欢</th>
+        <th>不喜欢</th>
+    </tr>
+    <tr>
+        <td>爱情片</td>
+        <td>恐怖片</td>
+    </tr>
+    <tr>
+        <td>吃辣</td>
+        <td>海鲜</td>
+    </tr>
+    <tr>
+        <td>喵酱</td>
+        <td>null</td>
+    <tr>
+        <td>苹果（Apple公司）</td>
+        <td>null</td>
+    </tr>
+</table>
                                 </div>
                             </div>
-                            <div class="post-footer">
-                                
-                                        <span style="display: inline-block;width: 50%;text-align: center;border-right: 1px solid#e3e8e8;font-size: 14px;float: left;"><i class="icon-arrow-ios-back-outline"></i> </span>
-                                        
-                                            
+                            
+                        </div>
+                        <div class="post-footer">
+                            <div class="post-copyright">
+                                作者:
+                                老于头的小站<br>永久链接:
+                                    <a href="https://cfzx-320.github.io/post/about-you/" title="About You（持续更新中……）">
+                                        https://cfzx-320.github.io/post/about-you/
+                                    </a><br> 协议: MIT License
                             </div>
-                        </article>
-                    </li>
-                </ul>
+                        </div>
+                    </article>
+                </div>
+                <style>
+                    .prev:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                    
+                    .next:hover {
+                        color: #2d96bd;
+                        text-decoration: none;
+                        text-align: center;
+                        transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, opacity 0.2s ease;
+                    }
+                </style>
+                <div class="lite-item nearby-article">
+                    
+                            
+                                <div class="nearby-article-right" style="padding: 10px;">
+                                    <a class="next" rel="next" href="https://cfzx-320.github.io/post/zuo-pin-ji-chi-xu-geng-xin-zhong/">
+                                        作品集（持续更新中……）<i class="fa fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                
+                </div>
+                <!--Share-->
+                <span style="margin-right:15px">
+    <i class="post-share"></i>
+    <span>&#x5206;&#x4EAB;:</span>
+                <a title="QR 码" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://cfzx-320.github.io/post/about-you/"><i class="fa fa-qrcode"></i></a>
+                <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://cfzx-320.github.io/post/about-you/&sharesource=qzone&title=About You（持续更新中……）&pics=https://cfzx-320.github.io/images/avatar.png?v=1592366542659&summary=&lt;p&gt;嘻嘻，快看呐！这里写着什么？&lt;/p&gt;
+"><i class="fa fa-qq"></i></a>
+                <a title="新浪微博" target="_blank" href="https://service.weibo.com/share/share.php?url=https://cfzx-320.github.io/post/about-you/&sharesource=weibo&title=About You（持续更新中……） + " - " + &lt;p&gt;嘻嘻，快看呐！这里写着什么？&lt;/p&gt;
+&pic="https://cfzx-320.github.io/images/avatar.png?v=1592366542659"><i class="fa fa-weibo "></i></a>
+                </span>
+                
+                                            
             </div>
             <div id="sidebar">
     <ul>
@@ -402,5 +482,18 @@
         App.outputlog();
     </script>
 </footer>
+    <script>
+        renderMathInElement(document.body, {
+            delimiters: [{
+                left: "$$",
+                right: "$$",
+                display: true
+            }, {
+                left: "$",
+                right: "$",
+                display: false
+            }]
+        });
+    </script>
 
 </html>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cfzx-320.github.io</id>
     <title>老于头的小站</title>
-    <updated>2020-06-17T03:54:04.720Z</updated>
+    <updated>2020-06-17T04:02:24.345Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cfzx-320.github.io"/>
     <link rel="self" href="https://cfzx-320.github.io/atom.xml"/>
@@ -10,6 +10,111 @@
     <logo>https://cfzx-320.github.io/images/avatar.png</logo>
     <icon>https://cfzx-320.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 老于头的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[About You（持续更新中……）]]></title>
+        <id>https://cfzx-320.github.io/post/about-you/</id>
+        <link href="https://cfzx-320.github.io/post/about-you/">
+        </link>
+        <updated>2020-06-17T03:58:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>嘻嘻，快看呐！这里写着什么？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>嘻嘻，快看呐！这里写着什么？</p>
+<!-- more -->
+<p>2020年6月14日9:01AM，与柯鑫同学相识😎</p>
+<!-- more -->
+<div id="messages">
+<div id="elapseClock">
+到现在为止，我们已经相识了…
+<p id="demo"></p>
+<!-- <div id="elapseClock">
+到现在为止，我们已经相恋了…
+<p id="demo1"></p> -->
+</div>
+</div>
+<script type="text/javascript">          
+function timeset(){
+    var date1= '2020/06/17 00:09:01';  //开始时间  
+	var date2 = new Date();    //结束时间  
+	var date3 = date2.getTime() - new Date(date1).getTime();   //时间差的毫秒数      //计算出相差天数  
+	var days=Math.floor(date3/(24*3600*1000))  
+	//计算出小时数  
+		    var leave1=date3%(24*3600*1000)    //计算天数后剩余的毫秒数  
+		    var hours=Math.floor(leave1/(3600*1000))  
+		    //计算相差分钟数  
+		    var leave2=leave1%(3600*1000)        //计算小时数后剩余的毫秒数  
+		    var minutes=Math.floor(leave2/(60*1000))  
+		    //计算相差秒数  
+		    var leave3=leave2%(60*1000)      //计算分钟数后剩余的毫秒数  
+		    var seconds=Math.round(leave3/1000)  
+			var result = days+"天 "+hours+"小时 "+minutes+" 分钟"+seconds+" 秒";
+			// alert(result.toString()) ;
+			document.getElementById('demo').innerHTML = result;
+			}
+			setInterval("timeset()","1000");
+		</script>  
+        <!-- <script type="text/javascript">          
+function timeset1(){
+    var date11= '2020/02/7 16:40:00';  //开始时间  
+	var date21 = new Date();    //结束时间  
+	var date31 = date21.getTime() - new Date(date11).getTime();   //时间差的毫秒数      //计算出相差天数  
+	var days=Math.floor(date31/(24*3600*1000))  
+	//计算出小时数  
+		    var leave1=date31%(24*3600*1000)    //计算天数后剩余的毫秒数  
+		    var hours=Math.floor(leave1/(3600*1000))  
+		    //计算相差分钟数  
+		    var leave2=leave1%(3600*1000)        //计算小时数后剩余的毫秒数  
+		    var minutes=Math.floor(leave2/(60*1000))  
+		    //计算相差秒数  
+		    var leave3=leave2%(60*1000)      //计算分钟数后剩余的毫秒数  
+		    var seconds=Math.round(leave3/1000)  
+			var result = days+"天 "+hours+"小时 "+minutes+" 分钟"+seconds+" 秒";
+			// alert(result.toString()) ;
+			document.getElementById('demo1').innerHTML = result;
+			}
+			setInterval("timeset1()","1000");
+		</script>   -->
+        记录柯鑫的喜好与厌恶
+        <table border="1">
+    <tr>
+        <th>喜欢</th>
+        <th>不喜欢</th>
+    </tr>
+    <tr>
+        <td>爱情片</td>
+        <td>恐怖片</td>
+    </tr>
+    <tr>
+        <td>吃辣</td>
+        <td>海鲜</td>
+    </tr>
+    <tr>
+        <td>喵酱</td>
+        <td>null</td>
+    <tr>
+        <td>苹果（Apple公司）</td>
+        <td>null</td>
+    </tr>
+</table>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[作品集（持续更新中……）]]></title>
+        <id>https://cfzx-320.github.io/post/zuo-pin-ji-chi-xu-geng-xin-zhong/</id>
+        <link href="https://cfzx-320.github.io/post/zuo-pin-ji-chi-xu-geng-xin-zhong/">
+        </link>
+        <updated>2020-06-17T03:57:09.000Z</updated>
+        <summary type="html"><![CDATA[<p>这里记录着柯鑫的作品鸭😝</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>这里记录着柯鑫的作品鸭😝</p>
+<!-- more -->
+<img src="https://s1.ax1x.com/2020/06/17/NAzqs0.jpg" alt="1592356724951" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAzbMq.jpg" alt="1592356727024" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAzTRs.jpg" alt="1592356729316" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAz7zn.jpg" alt="1592356731608" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAzLLV.jpg" alt="1592356733796" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAzXZT.jpg" alt="1592356737708" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAzvoF.jpg" alt="1592356739786" border="0">
+<img src="https://s1.ax1x.com/2020/06/17/NAzjdU.jpg" alt="1592356742109" border="0">]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://cfzx-320.github.io/post/about/</id>
